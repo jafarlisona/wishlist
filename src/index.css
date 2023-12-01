@@ -1,8 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@layer base{
-    body{
-        background-color:#cfd8dc;
-    }
+@layer base {
+  body {
+    @apply bg-blue-gray-100;
+    @apply dark:bg-gray-800;
+  }
+}
+.overflow-hidden {
+  overflow-y: hidden;
 }
